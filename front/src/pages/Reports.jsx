@@ -9,7 +9,9 @@ function Reports() {
   const [filters, setFilters] = useState({
     serial_number: '',
     part_number: '',
-    result: ''
+    result: '',
+    date_from: '', // 新增起始日期字段
+    date_to: ''    // 新增结束日期字段
   });
   const [pagination, setPagination] = useState({
     limit: 10,
@@ -97,7 +99,7 @@ function Reports() {
       {/* 过滤器 */}
       <div className="bg-white shadow-md rounded-lg p-6 mb-6">
         <form onSubmit={handleSearch}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-4">
             <div>
               <label htmlFor="serial_number" className="block text-sm font-medium text-gray-700 mb-1">序列号</label>
               <input
@@ -135,6 +137,30 @@ function Reports() {
                 <option value="Pass">通过</option>
                 <option value="Fail">失败</option>
               </select>
+            </div>
+            <div>
+              <label htmlFor="date_from" className="block text-sm font-medium text-gray-700 mb-1">起始日期</label>
+              <input
+                type="date"
+                id="date_from"
+                name="date_from"
+                value={filters.date_from}
+                onChange={handleFilterChange}
+                className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="起始日期"
+              />
+            </div>
+            <div>
+              <label htmlFor="date_to" className="block text-sm font-medium text-gray-700 mb-1">结束日期</label>
+              <input
+                type="date"
+                id="date_to"
+                name="date_to"
+                value={filters.date_to}
+                onChange={handleFilterChange}
+                className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="结束日期"
+              />
             </div>
           </div>
           <div className="flex justify-end">

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import apiService from '../services/api';
+// 新增：引入测量分布图组件
+import MeasurementDistributionChart from '../components/MeasurementDistributionChart';
 
 function ReportDetail() {
   const { id } = useParams();
@@ -96,7 +98,31 @@ function ReportDetail() {
           </div>
         </div>
       )}
-      
+
+      {/* 新增：数值型项目分布图 */}
+      {measurements && measurements.length > 0 && (
+        <div className="bg-white shadow-md rounded-lg p-6 mb-6">
+          <h2 className="text-xl font-semibold mb-4 text-blue-700">数值型项目分布图</h2>
+          {/* 仅对有足够数据的数值型项目绘制分布图 */}
+          {(() => {
+            // 按项目名称分组数值
+            const numMap = {};
+            measurements.forEach(m => {
+              // 判断 result_value 是否为有效数值
+              const val = Number(m.result_value);
+              if (!isNaN(val)) {
+                if (!numMap[m.name]) numMap[m.name] = { values: [], unit: m.unit_of_measure };
+                numMap[m.name].values.push(val);
+              }
+            });
+            // 仅渲染数据量大于1的项目
+            return Object.entries(numMap).filter(([_, v]) => v.values.length > 1).map(([name, v]) => (
+              <MeasurementDistributionChart key={name} name={name} values={v.values} unit={v.unit} />
+            ));
+          })()}
+        </div>
+      )}
+
       {test_info && (
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-xl font-semibold mb-4">测试信息</h2>

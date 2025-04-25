@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import apiService from '../services/api';
+import MeasurementDistributionChart from '../components/MeasurementDistributionChart';
 
 // 一个极简的测量筛选页面，只用于根据项目名称筛选测量值
 export default function Measurements() {
@@ -219,7 +220,33 @@ export default function Measurements() {
       {loading && <div className="text-blue-500">加载中...</div>}
       {error && <div className="text-red-500 mb-2">{error}</div>}
       {selectedName && measurements.length > 0 && (
-        <table className="min-w-full border mt-4">
+        <React.Fragment>
+          {/* 数值型“值”分布直方图，自动标注上限/下限 */}
+          {(() => {
+            const values = measurements.map(m => Number(m.result_value)).filter(v => !Number.isNaN(v));
+            if (values.length > 1) {
+              // 取单位
+              const unit = measurements.find(m => m.unit_of_measure)?.unit_of_measure || '';
+              // 判断所有上限/下限是否一致且为有效数值
+              let upperLimit, lowerLimit;
+              const uppers = measurements.map(m => Number(m.upper_limit)).filter(v => !Number.isNaN(v));
+              const lowers = measurements.map(m => Number(m.lower_limit)).filter(v => !Number.isNaN(v));
+              if (uppers.length > 0 && uppers.every(v => v === uppers[0])) upperLimit = uppers[0];
+              if (lowers.length > 0 && lowers.every(v => v === lowers[0])) lowerLimit = lowers[0];
+              return (
+                <MeasurementDistributionChart
+                  name={selectedName + ' 值'}
+                  values={values}
+                  unit={unit}
+                  upperLimit={upperLimit}
+                  lowerLimit={lowerLimit}
+                />
+              );
+            }
+            return null;
+          })()}
+
+          <table className="min-w-full border mt-4">
           <thead>
             <tr>
               <th className="border px-2 py-1">ID</th>
@@ -249,6 +276,7 @@ export default function Measurements() {
             ))}
           </tbody>
         </table>
+        </React.Fragment>
       )}
       {selectedName && !loading && measurements.length === 0 && !error && (
         <div className="text-gray-500 mt-4">该项目暂无测量数据。</div>
