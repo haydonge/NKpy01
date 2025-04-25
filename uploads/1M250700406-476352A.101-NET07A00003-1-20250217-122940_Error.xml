@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='SWIFT_MeasurementReport.xsl'?>
+<QM_TEST_RESULT MODE="INSERT">
+  <RESULT_DATA STORE_LIMITS="TRUE">
+    <HEADER>
+      <FILE_NAME>476352A.101_UNIT-NIFDSW</FILE_NAME>
+      <SWIFT_VERSION>9.16.4</SWIFT_VERSION>
+      <TEST_SPEC_ID>8BA27B7131</TEST_SPEC_ID>
+      <OPERATOR>267485</OPERATOR>
+      <COMMENT />
+      <TESTER>
+        <NAME>NET07A00003</NAME>
+        <SERIAL_NUMBER>NET07A00003</SERIAL_NUMBER>
+        <OT_NUMBER>T237735</OT_NUMBER>
+        <SW_VERSION>9.16.4</SW_VERSION>
+        <HW_VERSION>0.1</HW_VERSION>
+        <TEST_SEQUENCE>476352A.101_UNIT-NIFDSW</TEST_SEQUENCE>
+        <SEQUENCE_VERSION>NA</SEQUENCE_VERSION>
+        <SITE>SANKUN</SITE>
+        <OPERATION>Unit</OPERATION>
+      </TESTER>
+      <DUT>
+        <SERIAL_NUMBER>1M250700406</SERIAL_NUMBER>
+        <PRODUCT_CODE>476352A.101</PRODUCT_CODE>
+        <PRODUCT_REVISION>A</PRODUCT_REVISION>
+        <SHOP_ORDER>NA</SHOP_ORDER>
+        <SW_VERSION>NA</SW_VERSION>
+        <OPERATOR />
+        <POSITION>1</POSITION>
+      </DUT>
+      <CABINET>
+        <SERIAL_NUMBER />
+        <PRODUCT_CODE />
+        <TYPE />
+      </CABINET>
+      <MAC_ADDRESSES />
+      <FIXTURES />
+      <CUSTOM_ATTRIBUTES>
+        <FIELD VALUE="RID-250217122940">RID</FIELD>
+        <FIELD VALUE="9.16.4">VER</FIELD>
+      </CUSTOM_ATTRIBUTES>
+    </HEADER>
+    <RESULTS>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>10</ID>
+        <NAME>Clock Control</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>112</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>1</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>11</ID>
+        <NAME>Dut check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>PassFail</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>2</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>12</ID>
+        <NAME>LMP_RFcable_Check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8469</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>3</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>13</ID>
+        <NAME>PSU PowerControl</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>22</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>4</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>14</ID>
+        <NAME>DcCurrentConsumption</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.51</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.2</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>12</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>5</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>15</ID>
+        <NAME>RFSW_Login</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>FAIL</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>38524</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>6</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>16</ID>
+        <NAME>Ping Target</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>FAIL</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>182610</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>7</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>17</ID>
+        <NAME>DutConnect</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>FAIL</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>61536</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>8</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>18</ID>
+        <NAME>RFSWCheckVersion</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>FAIL</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>61963</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>9</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>19</ID>
+        <NAME>TPM_ResetFull_SN</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">
+        </RESULT>
+        <STATUS>ABORT</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>
+        </ACC_LOW>
+        <ACC_HIGH>
+        </ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>10</QM_MEAS_ID>
+      </MEASUREMENT>
+    </RESULTS>
+    <TIMES>
+      <SETUP_TIME>1</SETUP_TIME>
+      <TEST_TIME>572251</TEST_TIME>
+      <UNLOAD_TIME>0</UNLOAD_TIME>
+    </TIMES>
+    <TEST_START>20251702122008</TEST_START>
+    <TEST_STOP>20251702122940</TEST_STOP>
+    <OVERALL_STATUS>ABORT</OVERALL_STATUS>
+    <DIAGNOSTICS TYPE="NR">PRODUCTION</DIAGNOSTICS>
+    <LOG_DATA>00:00:00.000000 ; TestPlan       ; Information ; Starting TestPlan '476352A.101_UNIT-NIFDSW' on 02/17/2025 12:20:08, 171 of 198 TestSteps enabled.
+00:00:00.016955 ; Resolver       ; Debug       ; Found match for System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 in C:\OpenTap\Dependencies\System.Memory.4.0.1.1\System.Memory.dll
+00:00:00.020944 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in C:\OpenTap\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+00:00:00.066822 ; Settings       ; Debug       ; No settings file exists for TestPlanRunPackageParameterMonitor. A new instance with default values has been created. [100 us]
+00:00:00.111702 ; PluginManager  ; Debug       ; Loaded Renci.SshNet. [841 us]
+00:00:00.123670 ; TestPlan       ; Debug       ; Saved Test Plan XML [80.8 ms]
+00:00:00.125665 ; N/A            ; Information ; Resource "WebSocketResultListener" opened. [224 us]
+00:00:00.125665 ; DutInfo        ; Information ; Resource "DutInfo" opened. [862 us]
+00:00:00.125665 ; DutReaderDialog ; Information ; Resource "DutReaderDialog" opened. [459 us]
+00:00:00.125665 ; DutSsh_Rfsw    ; Information ; Resource "DutSsh_Rfsw" opened. [473 us]
+00:00:00.125665 ; Dut_Rfsw       ; Information ; Resource "Dut_Rfsw" opened. [485 us]
+00:00:00.125665 ; FactoryRA      ; Information ; Resource "FactoryRA" opened. [475 us]
+00:00:00.125665 ; RouteLoss      ; Information ; Resource "RouteLoss" opened. [681 us]
+00:00:00.125665 ; XmcSfcQuery    ; Information ; Resource "XmcSfcQuery" opened. [788 us]
+00:00:00.126662 ; Log            ; Information ; Resource "Log" opened. [1.31 ms]
+00:00:00.126662 ; Notify         ; Information ; Resource "Notify" opened. [1.32 ms]
+00:00:00.126662 ; StatusListener ; Information ; Resource "OpenTap.Plugins.RPCBase.Session.StatusListener" opened. [1.49 ms]
+00:00:00.126662 ; Reservation    ; Information ; Reservation Open
+00:00:00.126662 ; Reservation    ; Information ; Resource "Reservation" opened. [2.11 ms]
+00:00:00.127660 ; NiSwitchPlan   ; Debug       ; Loading switch plan: C:\Swift\Data\CUTS_SwitchPlan_RFTP_HHJ.xml
+00:00:00.128657 ; PmRsNrpSxx     ; Debug       ; Connecting to 'USB0::0x0AAD::0x00E2::112238::INSTR'
+00:00:00.129654 ; Zip            ; Information ; Resource "Zip" opened. [14.3 us]
+00:00:00.130652 ; XMC            ; Information ; Resource "XMC" opened. [683 us]
+00:00:00.133644 ; NiSwitchPlan   ; Debug       ; Switch plan loaded with 75 routes and 3 devices.
+00:00:00.140625 ; Resolver       ; Debug       ; Unable to find match for NationalInstruments.DAQmx
+00:00:00.154587 ; PmRsNrpSxx     ; Information ; Now connected to: ROHDE&amp;SCHWARZ,NRP8S,112238,02.30.21062301
+00:00:00.159574 ; PmRsNrpSxx     ; Information ; PM:SYSTem:VERSion: 1999.0
+00:00:00.160572 ; PmRsNrpSxx     ; Information ; PM:ScpiInstrument IoTimeout = 10
+00:00:00.160572 ; NiDaqMxWrapper ; Debug       ; SsuNi Reset Dev1
+00:00:00.190492 ; QWQXCOM        ; Information ; Resource "QWQXCOM" opened. [65.6 ms]
+00:00:00.241356 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port0/line0:7, ByteOut, OpenCollector 254
+00:00:00.332114 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line0, LineOut, OpenCollector 1
+00:00:00.336103 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line1, LineOut, OpenCollector 1
+00:00:00.340093 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line2, LineOut, OpenCollector 1
+00:00:00.344082 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line3, LineOut, OpenCollector 1
+00:00:00.347074 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line4, LineOut, OpenCollector 1
+00:00:00.351063 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line5, LineOut, OpenCollector 1
+00:00:00.355053 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line6, LineOut, OpenCollector 1
+00:00:00.359042 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port1/line7, LineOut, OpenCollector 1
+00:00:00.369016 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port2/line0, LineOut, OpenCollector 1
+00:00:00.373004 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port2/line1, LineOut, OpenCollector 1
+00:00:00.375997 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port2/line2, LineOut, OpenCollector 1
+00:00:00.380983 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port2/line3, LineOut, OpenCollector 1
+00:00:00.383975 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev1, port2/line4, LineOut, OpenCollector 1
+00:00:00.387965 ; NiDaqMxWrapper ; Debug       ; SsuNi Reset Dev2
+00:00:00.404920 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line0, LineOut, OpenCollector 1
+00:00:00.437832 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line1, LineOut, OpenCollector 1
+00:00:00.440824 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line2, LineOut, OpenCollector 1
+00:00:00.444813 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line3, LineOut, OpenCollector 1
+00:00:00.448802 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line4, LineOut, OpenCollector 1
+00:00:00.452791 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line5, LineOut, OpenCollector 1
+00:00:00.456781 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line6, LineOut, OpenCollector 1
+00:00:00.459773 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev2, port0/line7, LineOut, OpenCollector 1
+00:00:00.463763 ; NiDaqMxWrapper ; Debug       ; SsuNi Reset Dev3
+00:00:00.474733 ; NI-RMX412x_AWHHJ ; Information ; Resource "NI-RMX412x_AWHHJ" opened. [349 ms]
+00:00:00.475730 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev3, port0/line0, LineOut, OpenCollector 1
+00:00:00.508643 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev3, port0/line1, LineOut, OpenCollector 0
+00:00:00.512632 ; NiDaqMxWrapper ; Information ; SsuNi Write &gt;&gt; Dev3, port0/line2, LineOut, OpenCollector 1
+00:00:00.513630 ; SSU_HHJ        ; Information ; Resource "SSU_HHJ" opened. [389 ms]
+00:00:01.784240 ; NI Clock 6674T ; Information ; Resource "NI Clock 6674T" opened. [1.65 s]
+00:00:02.142284 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.142284 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.143282 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.143282 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.143282 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.143282 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:02.143282 ; TestPlan       ; Information ; Waiting for resources to open:
+00:00:03.091751 ; NI VST         ; Information ; Last self-calibration date: 02/13/2025 14:26:00
+00:00:03.091751 ; NI VST         ; Information ; 3 days since last self-alignment
+00:00:03.091751 ; NI VST         ; Information ; VST self-calibration due in 4 days.
+00:00:03.822802 ; NI VST         ; Information ; Resource "NI VST" opened. [3.69 s]
+00:00:07.152916 ; PmRsNrpSxx     ; Information ; PM:Selftest PASS
+00:00:07.161892 ; PmRsNrpSxx     ; Information ; PM MIN frequency: 10000000Hz
+00:00:07.162890 ; PmRsNrpSxx     ; Information ; PM MAX frequency: 8000000000Hz
+00:00:07.162890 ; PmRsNrpSxx     ; Information ; Resource "PmRsNrpSxx (USB0::0x0AAD::0x00E2::112238::INSTR)" opened. [7.03 s]
+00:00:34.947762 ; SwiftLog       ; Information ; Resource "SwiftLog" opened. [34.8 s]
+00:00:34.947762 ; XmcLog         ; Information ; TAP Engine 9.16.4+654f0b6b
+00:00:34.951751 ; Zip            ; Debug       ; TestPlanID is 8BA27B7131.
+00:00:34.984663 ; TestPlan       ; Debug       ; "External Parameters" PrePlanRun completed. [1.91 ms]
+00:00:34.984663 ; TestPlan       ; Debug       ; "PSU connector Retry \ DcCurrentConsumption" PrePlanRun completed. [40.5 us]
+00:00:34.984663 ; TestPlan       ; Debug       ; "PSU connector Retry \ IfPrevtestFail_Abort \ DcCurrentConsumption (1)" PrePlanRun completed. [43.7 us]
+00:00:34.984663 ; TestPlan       ; Debug       ; "DutConnect" PrePlanRun completed. [4.54 ms]
+00:00:34.984663 ; TestPlan       ; Debug       ; "IRFSWVersion_NeedReload \ Power_Reset48V (3) (1) \ DcCurrentConsumption (1) (1) (3) (1) (3) (1) (1)" PrePlanRun completed. [4.40 us]
+00:00:34.984663 ; TestPlan       ; Debug       ; "IRFSWVersion_NeedReload \ Power_Reset48V (3) (1) \ DutConnect_Full (2) (1) (3) (1)" PrePlanRun completed. [27.6 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (3) \ DcCurrentConsumption (1) (1) (3) (1) (3) (1)" PrePlanRun completed. [6.20 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (3) \ DutConnect_Full (2) (1) (3)" PrePlanRun completed. [12.4 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (1) \ DcCurrentConsumption (1) (1) (3) (1) (3) (2)" PrePlanRun completed. [4.70 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (1) \ DutConnect_Full (2) (1) (1)" PrePlanRun completed. [8.50 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "Power_ResetRF \ DcCurrentConsumption (1) (1) (3) (1) (3) (3)" PrePlanRun completed. [5.09 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "Power_ResetRF \ DutConnect_Full (2) (1) (2)" PrePlanRun completed. [8.10 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "Power_FDSW \ DcCurrentConsumption (1) (1) (3) (1) (3) (3) (1)" PrePlanRun completed. [3.90 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; "Power_FDSW \ DutConnect_Full (2) (1) (2) (1)" PrePlanRun completed. [7.60 us]
+00:00:34.985660 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [8.72 ms]
+00:00:34.993639 ; TestPlan       ; Information ; "Clock Control" started.
+00:00:34.996631 ; TestStep       ; Information ; Starting Clock control.
+00:00:35.084397 ; TestStep       ; Information ; Clock control passed!
+00:00:35.106338 ; TestPlan       ; Information ; "Clock Control" completed with verdict 'Pass'. [112 ms]
+00:00:35.107336 ; TestPlan       ; Information ; "External Parameters" started.
+00:00:35.108333 ; TestStep       ; Information ; Dut information: Sn:NA - Position:1 - ProdCode:NA
+00:00:35.108333 ; TestStep       ; Information ; Dut information: test session guid:NA
+00:00:35.108333 ; TestStep       ; Information ; Local: Sn:1M250700406 - Position:NA - ProdCode:476352A.101
+00:00:35.108333 ; TestStep       ; Information ; Local: test session guid:NA
+00:00:35.108333 ; TestStep       ; Information ; Local: test session phase :NotStarted
+00:00:35.108333 ; TestStep       ; Information ; Dut information: Sn:NA - Position:1 - ProdCode:NA
+00:00:35.108333 ; TestStep       ; Information ; Local: Sn:1M250700406 - Position:NA - ProdCode:476352A.101
+00:00:35.110328 ; TestStep       ; Information ; Product is parsed from plan name (underscore is separation character)
+00:00:35.110328 ; TestStep       ; Information ; Product code:476352A.101
+00:00:35.110328 ; TestPlan       ; Information ; "External Parameters" completed with verdict 'Pass'. [3.00 ms]
+00:00:35.131272 ; TestPlan       ; Information ; "LMP_RFcable_Check" started.
+00:00:35.321764 ; Resolver       ; Debug       ; Found 372/530 assembly files. [36.8 ms]
+00:00:35.322761 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in C:\OpenTap\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+00:00:43.600677 ; TestStep       ; Debug       ; User approved the dialog window
+00:00:43.600677 ; TestPlan       ; Information ; "LMP_RFcable_Check" completed with verdict 'Pass'. [8.46 s]
+00:00:43.600677 ; TestPlan       ; Information ; "PSU PowerControl" started.
+00:00:43.608655 ; Reservation    ; Information ; Reservation TryToReserveInternal
+00:00:43.610650 ; TestStep       ; Information ; Reservation type:SharedPrimary
+00:00:43.620623 ; TestStep       ; Information ; Trying to set PSU output state to: On.
+00:00:43.622618 ; TestStep       ; Information ; PSU state set successfully to: On.
+00:00:43.622618 ; Reservation    ; Information ; Reservation TryToReserveInternal
+00:00:43.622618 ; TestPlan       ; Information ; "PSU PowerControl" completed with verdict 'Pass'. [22.3 ms]
+00:00:43.623617 ; TestPlan       ; Information ; "PsuSettlingDelay" started.
+00:00:47.623942 ; TestPlan       ; Information ; "PsuSettlingDelay" completed. [4.00 s]
+00:00:47.623942 ; TestPlan       ; Information ; "PSU connector Retry" started.
+00:00:47.627932 ; TestPlan       ; Information ; "PSU connector Retry \ DcCurrentConsumption" started.
+00:00:47.634914 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:00:47.634914 ; TestStep       ; Information ; PSU current: 0.51 A
+00:00:47.640897 ; TestPlan       ; Information ; "PSU connector Retry \ DcCurrentConsumption" completed with verdict 'Pass'. [12.1 ms]
+00:00:47.642892 ; TestPlan       ; Information ; "PSU connector Retry \ IfPrevtestFail_Abort" started.
+00:00:47.647879 ; TestStep       ; Information ; Condition is false.
+00:00:47.647879 ; TestPlan       ; Information ; "PSU connector Retry \ IfPrevtestFail_Abort" completed. [4.74 ms]
+00:00:47.648876 ; TestPlan       ; Information ; "PSU connector Retry" completed with verdict 'Pass'. [25.6 ms]
+00:00:47.648876 ; TestPlan       ; Information ; "Delay" started.
+00:03:47.651640 ; TestPlan       ; Information ; "Delay" completed. [180 s]
+00:03:47.651640 ; TestPlan       ; Information ; "RFSW_Login" started.
+00:03:47.651640 ; TestStep       ; Information ; ############################## Test Case: RFSW_Login Start. ##############################
+00:04:26.174867 ; TestStep       ; Error       ; Made Login Fail.
+00:04:26.175865 ; TestStep       ; Information ; ############################## Test Case: RFSW_Login End. ##############################
+00:04:26.175865 ; TestPlan       ; Information ; "RFSW_Login" completed with verdict 'Fail'. [38.5 s]
+00:04:26.176862 ; TestPlan       ; Information ; "Ping Target" started.
+00:04:26.177859 ; TestStep       ; Information ; Starting to ping address:192.168.101.1
+00:04:26.178857 ; TestStep       ; Information ; Ping for target DUT: 192.168.101.1
+00:04:29.786232 ; TestStep       ; Information ; Ping status: No success
+00:04:33.786560 ; TestStep       ; Information ; Ping status: No success
+00:04:36.786558 ; TestStep       ; Information ; Ping status: No success
+00:04:40.786885 ; TestStep       ; Information ; Ping status: No success
+00:04:44.786216 ; TestStep       ; Information ; Ping status: No success
+00:04:48.786542 ; TestStep       ; Information ; Ping status: No success
+00:04:52.786872 ; TestStep       ; Information ; Ping status: No success
+00:04:56.786203 ; TestStep       ; Information ; Ping status: No success
+00:05:00.786529 ; TestStep       ; Information ; Ping status: No success
+00:05:04.786856 ; TestStep       ; Information ; Ping status: No success
+00:05:08.787184 ; TestStep       ; Information ; Ping status: No success
+00:05:12.786515 ; TestStep       ; Information ; Ping status: No success
+00:05:16.786843 ; TestStep       ; Information ; Ping status: No success
+00:05:20.787172 ; TestStep       ; Information ; Ping status: No success
+00:05:24.786501 ; TestStep       ; Information ; Ping status: No success
+00:05:28.786829 ; TestStep       ; Information ; Ping status: No success
+00:05:32.787157 ; TestStep       ; Information ; Ping status: No success
+00:05:36.786487 ; TestStep       ; Information ; Ping status: No success
+00:05:40.786815 ; TestStep       ; Information ; Ping status: No success
+00:05:44.787144 ; TestStep       ; Information ; Ping status: No success
+00:05:48.786474 ; TestStep       ; Information ; Ping status: No success
+00:05:52.786802 ; TestStep       ; Information ; Ping status: No success
+00:05:56.787130 ; TestStep       ; Information ; Ping status: No success
+00:06:00.787457 ; TestStep       ; Information ; Ping status: No success
+00:06:04.786788 ; TestStep       ; Information ; Ping status: No success
+00:06:08.787115 ; TestStep       ; Information ; Ping status: No success
+00:06:12.787443 ; TestStep       ; Information ; Ping status: No success
+00:06:16.786773 ; TestStep       ; Information ; Ping status: No success
+00:06:20.787102 ; TestStep       ; Information ; Ping status: No success
+00:06:24.787430 ; TestStep       ; Information ; Ping status: No success
+00:06:28.786759 ; TestStep       ; Information ; Ping status: No success
+00:06:32.787087 ; TestStep       ; Information ; Ping status: No success
+00:06:36.787415 ; TestStep       ; Information ; Ping status: No success
+00:06:40.786747 ; TestStep       ; Information ; Ping status: No success
+00:06:44.787074 ; TestStep       ; Information ; Ping status: No success
+00:06:48.787401 ; TestStep       ; Information ; Ping status: No success
+00:06:52.787729 ; TestStep       ; Information ; Ping status: No success
+00:06:56.787060 ; TestStep       ; Information ; Ping status: No success
+00:07:00.787388 ; TestStep       ; Information ; Ping status: No success
+00:07:04.787716 ; TestStep       ; Information ; Ping status: No success
+00:07:08.787045 ; TestStep       ; Information ; Ping status: No success
+00:07:12.787374 ; TestStep       ; Information ; Ping status: No success
+00:07:16.787701 ; TestStep       ; Information ; Ping status: No success
+00:07:20.787031 ; TestStep       ; Information ; Ping status: No success
+00:07:24.787359 ; TestStep       ; Information ; Ping status: No success
+00:07:28.787688 ; TestStep       ; Information ; Ping status: No success
+00:07:28.787688 ; TestStep       ; Information ; Ping failed!
+00:07:28.788687 ; TestPlan       ; Information ; "Ping Target" completed with verdict 'Fail'. [182 s]
+00:07:28.788687 ; TestPlan       ; Information ; "DutConnect" started.
+00:07:28.789683 ; TestStep       ; Information ; ############################## Test Case: DutConnect Start. ##############################
+00:07:28.793673 ; DutControlFrmonCore ; Information ; Ping for target DUT 192.168.101.1
+00:07:32.787019 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:07:40.787673 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:07:48.287666 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:07:56.287323 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:03.787314 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:11.287305 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:18.787298 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:26.287288 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:30.287617 ; TestStep       ; Information ; Dut Connect Fail, error info: Ping DUT timeout.
+00:08:30.292605 ; TestStep       ; Error       ; Exception: Ping DUT timeout.
+00:08:30.320528 ; TestStep       ; Debug       ;     at Nokia.Tap.Driver.DutControl.DutControlFrmonRel6.ConnectDut(UInt32 timeOutInMilliSec, UInt32 successfulReplies) in C:\Swift\Source\Oscar-master\Nokia.Tap.Driver.DutControl\Nokia.Tap.Driver.DutControl\DutControlFrmonRel6.cs:line 379
+00:08:30.320528 ; TestStep       ; Debug       ;     at Nokia.Tap.TestSteps.Projects.SmallCell.Common.DutConnect.Run() in C:\Swift\Source\Oscar-master\Nokia.Tap.TestSteps\Nokia.Tap.TestSteps\Projects\SmallCell\Common\DutConnect.cs:line 49
+00:08:30.321525 ; TestStep       ; Error       ; Exception caught at:
+00:08:30.324517 ; TestStep       ; Error       ;     at OpenTap.TestStepRun DoRun(OpenTap.ITestStep, OpenTap.TestPlanRun, OpenTap.TestRun, System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter])
+00:08:30.324517 ; TestStep       ; Error       ;     at failState execTestPlan(OpenTap.TestPlanRun, System.Collections.Generic.IList`1[OpenTap.ITestStep])
+00:08:30.324517 ; TestStep       ; Error       ;     at OpenTap.TestPlanRun DoExecute(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+00:08:30.324517 ; TestStep       ; Error       ;     at OpenTap.TestPlanRun executeInContext(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+00:08:30.324517 ; TestStep       ; Error       ;     ...
+00:08:30.324517 ; TestStep       ; Information ; ############################## Test Case: DutConnect End. ##############################
+00:08:30.325515 ; TestPlan       ; Information ; "DutConnect" completed with verdict 'Fail'. [61.5 s]
+00:08:30.325515 ; TestPlan       ; Information ; "RFSWCheckVersion" started.
+00:08:30.326512 ; TestStep       ; Information ; ############################## Test Case: RFSWCheckVersion Start. ##############################
+00:08:30.326512 ; DutControlFrmonCore ; Information ; Ping for target DUT 192.168.101.1
+00:08:34.287944 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:41.787936 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:49.287926 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:08:56.787918 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:09:04.787576 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:09:12.287567 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:09:20.288223 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:09:28.287882 ; DutControlFrmonCore ; Information ; Ping status: No success
+00:09:32.289206 ; TestStep       ; Error       ; Ping DUT timeout.
+00:09:32.289206 ; TestStep       ; Information ; ############################## Test Case: RFSWCheckVersion End. ##############################
+00:09:32.289206 ; TestPlan       ; Information ; "RFSWCheckVersion" completed with verdict 'Fail'. [61.9 s]
+00:09:32.289206 ; TestPlan       ; Information ; "IRFSWVersion_NeedReload" started.
+00:09:32.289206 ; TestStep       ; Information ; Condition is false.
+00:09:32.289206 ; TestPlan       ; Information ; "IRFSWVersion_NeedReload" completed. [51.1 us]
+00:09:32.289206 ; TestPlan       ; Information ; "If RFSWLoadFail_Abort" started.
+00:09:32.289206 ; TestStep       ; Information ; Condition is false.
+00:09:32.289206 ; TestPlan       ; Information ; "If RFSWLoadFail_Abort" completed. [28.5 us]
+00:09:32.289206 ; TestPlan       ; Information ; "TPM_ResetFull_SN" started.
+00:09:32.290204 ; TestStep       ; Information ; ############################## Test Case: TPM_ResetFull_SN Start. ##############################
+00:09:32.290204 ; TestPlan       ; Error       ; Error running "TPM_ResetFull_SN": Error: Dut is not connected!.
+00:09:32.290204 ; TestPlan       ; Debug       ; Exception: Error: Dut is not connected!
+00:09:32.292199 ; TestPlan       ; Debug       ;     at Nokia.Tap.TestSteps.Projects.SmallCell.UnitTest.TPM_ResetFull_SN.Run() in C:\Swift\Source\Oscar-master\Nokia.Tap.TestSteps\Nokia.Tap.TestSteps\Projects\SmallCell\UnitTest\TPM_ResetFull_SN.cs:line 56
+00:09:32.292199 ; TestPlan       ; Debug       ;     at OpenTap.TestStepExtensions.DoRun(ITestStep Step, TestPlanRun planRun, TestRun parentRun, IEnumerable`1 attachedParameters)
+00:09:32.292199 ; TestPlan       ; Debug       ; Exception caught at:
+00:09:32.292199 ; TestPlan       ; Debug       ;     at failState execTestPlan(OpenTap.TestPlanRun, System.Collections.Generic.IList`1[OpenTap.ITestStep])
+00:09:32.292199 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun DoExecute(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+00:09:32.292199 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun executeInContext(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+00:09:32.292199 ; TestPlan       ; Debug       ;     at Void &lt;ExecutePlan&gt;b__0()
+00:09:32.292199 ; TestPlan       ; Debug       ;     ...
+00:09:32.293197 ; TestPlan       ; Information ; "TPM_ResetFull_SN" completed with verdict 'Error'. [3.06 ms]
+00:09:32.293197 ; TestPlan       ; Information ; Break issued from 'TPM_ResetFull_SN' due to verdict Error. See Break Conditions settings.
+00:09:32.293197 ; TestPlan       ; Debug       ; Test step runs finished. [537 s]
+00:09:32.295190 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.295190 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.295190 ; TestPlan       ; Debug       ; "Power_FDSW \ DutConnect_Full (2) (1) (2) (1)" PostPlanRun completed. [223 us]
+00:09:32.296188 ; TestStep       ; Information ; PostPlan Current Check
+00:09:32.301174 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:09:32.301174 ; TestStep       ; Information ; PSU current: 0.75 A
+00:09:32.301174 ; TestPlan       ; Debug       ; "Power_FDSW \ DcCurrentConsumption (1) (1) (3) (1) (3) (3) (1)" PostPlanRun completed. [5.45 ms]
+00:09:32.301174 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.301174 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.301174 ; TestPlan       ; Debug       ; "Power_ResetRF \ DutConnect_Full (2) (1) (2)" PostPlanRun completed. [16.4 us]
+00:09:32.301174 ; TestStep       ; Information ; PostPlan Current Check
+00:09:32.305164 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:09:32.305164 ; TestStep       ; Information ; PSU current: 0.75 A
+00:09:32.305164 ; TestPlan       ; Debug       ; "Power_ResetRF \ DcCurrentConsumption (1) (1) (3) (1) (3) (3)" PostPlanRun completed. [4.43 ms]
+00:09:32.305164 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.305164 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.305164 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (1) \ DutConnect_Full (2) (1) (1)" PostPlanRun completed. [12.0 us]
+00:09:32.305164 ; TestStep       ; Information ; PostPlan Current Check
+00:09:32.310150 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:09:32.310150 ; TestStep       ; Information ; PSU current: 0.75 A
+00:09:32.310150 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (1) \ DcCurrentConsumption (1) (1) (3) (1) (3) (2)" PostPlanRun completed. [4.32 ms]
+00:09:32.310150 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.310150 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.310150 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (3) \ DutConnect_Full (2) (1) (3)" PostPlanRun completed. [8.00 us]
+00:09:32.310150 ; TestStep       ; Information ; PostPlan Current Check
+00:09:32.314140 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:09:32.314140 ; TestStep       ; Information ; PSU current: 0.75 A
+00:09:32.314140 ; TestPlan       ; Debug       ; "If TPM_ResetFull_SN_NotSet \ Power_Reset48V (3) \ DcCurrentConsumption (1) (1) (3) (1) (3) (1)" PostPlanRun completed. [4.28 ms]
+00:09:32.314140 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.314140 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.314140 ; TestPlan       ; Debug       ; "IRFSWVersion_NeedReload \ Power_Reset48V (3) (1) \ DutConnect_Full (2) (1) (3) (1)" PostPlanRun completed. [7.20 us]
+00:09:32.314140 ; TestStep       ; Information ; PostPlan Current Check
+00:09:32.318129 ; TestStep       ; Information ; PSU voltage: 47.99 V
+00:09:32.318129 ; TestStep       ; Information ; PSU current: 0.75 A
+00:09:32.318129 ; TestPlan       ; Debug       ; "IRFSWVersion_NeedReload \ Power_Reset48V (3) (1) \ DcCurrentConsumption (1) (1) (3) (1) (3) (1) (1)" PostPlanRun completed. [4.30 ms]
+00:09:32.318129 ; TestStep       ; Information ; ############################## Starting PostPlanRun and Disconnect DUT. ##############################
+00:09:32.318129 ; TestStep       ; Information ; ############################## End PostPlanRun and Disconnect DUT. ##############################
+00:09:32.318129 ; TestPlan       ; Debug       ; "DutConnect" PostPlanRun completed. [4.90 us]
+00:09:32.318129 ; TestPlan       ; Debug       ; "PSU connector Retry \ IfPrevtestFail_Abort \ DcCurrentConsumption (1)" PostPlanRun completed. [4.09 us]
+00:09:32.318129 ; TestPlan       ; Debug       ; "PSU connector Retry \ DcCurrentConsumption" PostPlanRun completed. [1.90 us]
+00:09:32.318129 ; TestPlan       ; Debug       ; "External Parameters" PostPlanRun completed. [19.7 us]
+
+----------------------------------- Summary of run started 02/17/2025 12:20:08 -----------------------------------
+  Clock Control                                                                                      0.11 s  Pass
+  External Parameters                                                                                0.00 s  Pass
+  LMP_RFcable_Check                                                                                  8.47 s  Pass
+  PSU PowerControl                                                                                   0.02 s  Pass
+  PsuSettlingDelay                                                                                   4.00 s  NotSet
+  DcCurrentConsumption                                                                               0.01 s  Pass
+  IfPrevtestFail_Abort                                                                               0.00 s  NotSet
+  PSU connector Retry                                                                                0.03 s  Pass
+  Delay                                                                                              180.00 s  NotSet
+  RFSW_Login                                                                                         38.52 s  Fail
+  Ping Target                                                                                        182.61 s  Fail
+  DutConnect                                                                                         61.54 s  Fail
+  RFSWCheckVersion                                                                                   61.96 s  Fail
+  IRFSWVersion_NeedReload                                                                            0.00 s  NotSet
+  If RFSWLoadFail_Abort                                                                              0.00 s  NotSet
+  TPM_ResetFull_SN                                                                                   0.00 s  Error
+
+WorkingSet before plan(MB):	839.041
+WorkingSet usage after plan(MB):	895.996
+WorkingSet difference(MB):	56.955
+PagedMemorySize at the end(MB):	802.71
+VirtualMemorySize at the end(MB):	7292.355
+PeakWorkingSet(MB):	820.58
+PeakPagedMemorySize(MB):	820.58
+PeakVirtualMemorySize(MB):	7372.468
+Total number of plans run:	1
+
+</LOG_DATA>
+  </RESULT_DATA>
+</QM_TEST_RESULT>

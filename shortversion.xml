@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='SWIFT_MeasurementReport.xsl'?>
+<QM_TEST_RESULT MODE="INSERT">
+  <RESULT_DATA STORE_LIMITS="TRUE">
+    <HEADER>
+      <FILE_NAME>476352A.101_UNIT-NIFDSW</FILE_NAME>
+      <SWIFT_VERSION>9.16.4</SWIFT_VERSION>
+      <TEST_SPEC_ID>8BA27B7131</TEST_SPEC_ID>
+      <OPERATOR>267485</OPERATOR>
+      <COMMENT />
+      <TESTER>
+        <NAME>NET07A00003</NAME>
+        <SERIAL_NUMBER>NET07A00003</SERIAL_NUMBER>
+        <OT_NUMBER>T237735</OT_NUMBER>
+        <SW_VERSION>9.16.4</SW_VERSION>
+        <HW_VERSION>0.1</HW_VERSION>
+        <TEST_SEQUENCE>476352A.101_UNIT-NIFDSW</TEST_SEQUENCE>
+        <SEQUENCE_VERSION>NA</SEQUENCE_VERSION>
+        <SITE>SANKUN</SITE>
+        <OPERATION>Unit</OPERATION>
+      </TESTER>
+      <DUT>
+        <SERIAL_NUMBER>1M250700408</SERIAL_NUMBER>
+        <PRODUCT_CODE>476352A.101</PRODUCT_CODE>
+        <PRODUCT_REVISION>A</PRODUCT_REVISION>
+        <SHOP_ORDER>NA</SHOP_ORDER>
+        <SW_VERSION>NA</SW_VERSION>
+        <OPERATOR />
+        <POSITION>1</POSITION>
+      </DUT>
+      <CABINET>
+        <SERIAL_NUMBER />
+        <PRODUCT_CODE />
+        <TYPE />
+      </CABINET>
+      <MAC_ADDRESSES />
+      <FIXTURES />
+      <CUSTOM_ATTRIBUTES>
+        <FIELD VALUE="RID-250214194425">RID</FIELD>
+        <FIELD VALUE="9.16.4">VER</FIELD>
+      </CUSTOM_ATTRIBUTES>
+    </HEADER>
+    <RESULTS>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>10</ID>
+        <NAME>Clock Control</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>113</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>1</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>11</ID>
+        <NAME>Dut check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>PassFail</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>2</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>12</ID>
+        <NAME>LMP_RFcable_Check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6047</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>3</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>13</ID>
+        <NAME>PSU PowerControl</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>22</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>4</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>14</ID>
+        <NAME>DcCurrentConsumption</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.53</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.2</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>11</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>5</QM_MEAS_ID>
+      </MEASUREMENT>
+
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>39</ID>
+        <NAME>WriteManufacture_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">Nokia</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>Nokia</ACC_LOW>
+        <ACC_HIGH>Nokia</ACC_HIGH>
+        <TEST_TIME>310</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>30</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>40</ID>
+        <NAME>WriteTestStamp</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>31</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>41</ID>
+        <NAME>WriteTestStamp_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>32</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>42</ID>
+        <NAME>WriteTestStamp_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">20251402185900</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>20251402185900</ACC_LOW>
+        <ACC_HIGH>20251402185900</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>33</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>43</ID>
+        <NAME>WriteHWSWID</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>34</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>44</ID>
+        <NAME>WriteHWSWID_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>35</QM_MEAS_ID>
+      </MEASUREMENT>
+    
+  
+    </RESULTS>
+    <TIMES>
+      <SETUP_TIME>1</SETUP_TIME>
+      <TEST_TIME>3051532</TEST_TIME>
+      <UNLOAD_TIME>0</UNLOAD_TIME>
+    </TIMES>
+    <TEST_START>20251402185333</TEST_START>
+    <TEST_STOP>20251402194425</TEST_STOP>
+    <OVERALL_STATUS>PASS</OVERALL_STATUS>
+    <DIAGNOSTICS TYPE="NR">PRODUCTION</DIAGNOSTICS>
+    <LOG_DATA>00:00:00.000000 ; TestPlan       ; Information ; Starting TestPlan '476352A.101_UNIT-NIFDSW' on 02/14/2025 18:53:33, 171 of 198 TestSteps enabled.
+00                                                                     56.73 s  Pass
+  VSWRCal_Unit4_AWHHJ                                                                                56.79 s  Pass
+  If VSWR_Fail.617
+PeakPagedMemorySize(MB):	2313.617
+PeakVirtualMemorySize(MB):	8951.431
+Total number of plans run:	1
+
+</LOG_DATA>
+  </RESULT_DATA>
+</QM_TEST_RESULT>

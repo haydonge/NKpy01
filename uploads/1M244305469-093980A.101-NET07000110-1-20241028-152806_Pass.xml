@@ -1,0 +1,3641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='SWIFT_MeasurementReport.xsl'?>
+<QM_TEST_RESULT MODE="INSERT">
+  <RESULT_DATA STORE_LIMITS="TRUE">
+    <HEADER>
+      <FILE_NAME>093980A.101_PSU</FILE_NAME>
+      <SWIFT_VERSION>9.16.4</SWIFT_VERSION>
+      <TEST_SPEC_ID>7AD061EF3B</TEST_SPEC_ID>
+      <OPERATOR>239561</OPERATOR>
+      <COMMENT />
+      <TESTER>
+        <NAME>NET07000110</NAME>
+        <SERIAL_NUMBER>NET07000110</SERIAL_NUMBER>
+        <OT_NUMBER>T225092</OT_NUMBER>
+        <SW_VERSION>2.2.1.0</SW_VERSION>
+        <HW_VERSION>0.1</HW_VERSION>
+        <TEST_SEQUENCE>093980A.101_PSU</TEST_SEQUENCE>
+        <SEQUENCE_VERSION>NA</SEQUENCE_VERSION>
+        <SITE>Sankun</SITE>
+        <OPERATION>MODULE_TEST</OPERATION>
+      </TESTER>
+      <DUT>
+        <SERIAL_NUMBER>1M244305469</SERIAL_NUMBER>
+        <PRODUCT_CODE>093980A.101</PRODUCT_CODE>
+        <PRODUCT_REVISION>A</PRODUCT_REVISION>
+        <SHOP_ORDER>NA</SHOP_ORDER>
+        <SW_VERSION>NA</SW_VERSION>
+        <OPERATOR />
+        <POSITION>1</POSITION>
+      </DUT>
+      <CABINET>
+        <SERIAL_NUMBER />
+        <PRODUCT_CODE />
+        <TYPE />
+      </CABINET>
+      <MAC_ADDRESSES />
+      <FIXTURES />
+      <CUSTOM_ATTRIBUTES>
+        <FIELD VALUE="RID-241028152806">RID</FIELD>
+        <FIELD VALUE="9.16.4">VER</FIELD>
+      </CUSTOM_ATTRIBUTES>
+    </HEADER>
+    <RESULTS>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>10</ID>
+        <NAME>Dut check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>PassFail</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>0</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>1</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>11</ID>
+        <NAME>PSU PowerOn_48V1A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>2</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>12</ID>
+        <NAME>PsuSetEloadOn_NoLoad</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1005</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>3</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>13</ID>
+        <NAME>PsuStandbyCurrent_AWHHJ </NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.084</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.02</ACC_LOW>
+        <ACC_HIGH>0.16</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>4</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>14</ID>
+        <NAME>PSU PowerOff_48V1A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>5</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>15</ID>
+        <NAME>PsuSetEloadOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>102</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>6</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>16</ID>
+        <NAME>PsuSetEloadOn_1A@5V</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>401</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>7</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>17</ID>
+        <NAME>PSU PowerOn_48V20A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>8</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>18</ID>
+        <NAME> Input Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">47.994</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>50</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>9</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>19</ID>
+        <NAME> Input Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.188</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>10</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>20</ID>
+        <NAME> Input Power</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">9.022872</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>W</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>12</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>11</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>21</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>12</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>22</ID>
+        <NAME> Input Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">47.995</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>50</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>13</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>23</ID>
+        <NAME> Input Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.29</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>14</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>24</ID>
+        <NAME> Input Power</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">13.91855</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>W</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>16</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>15</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>25</ID>
+        <NAME>SetRoutes_Disable (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>16</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>26</ID>
+        <NAME>PsuSetEloadOn_2A@PA (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>404</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>17</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>27</ID>
+        <NAME>PsuSetEloadOff (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>102</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>18</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>28</ID>
+        <NAME>PsuSetEloadOn_1A@5V (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>401</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>19</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>29</ID>
+        <NAME> Input Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">47.997</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>50</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>20</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>30</ID>
+        <NAME> Input Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.165</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>21</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>31</ID>
+        <NAME> Input Power</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.919505</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>W</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>12</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>22</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>32</ID>
+        <NAME>SetRoutes_Enable (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>23</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>33</ID>
+        <NAME> Input Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">47.997</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>50</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>24</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>34</ID>
+        <NAME> Input Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.286</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>25</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>35</ID>
+        <NAME> Input Power</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">13.727142</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>W</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>16</ACC_HIGH>
+        <TEST_TIME>168</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>26</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>36</ID>
+        <NAME>PsuSetEloadOn_FullLoad</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>27</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>37</ID>
+        <NAME>Enabled PA Voltage 50V_Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.76</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>326</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>28</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>38</ID>
+        <NAME>SetRoutes_Disable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>29</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>39</ID>
+        <NAME>Disabled PA Voltage _Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-0.5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>105</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>30</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>40</ID>
+        <NAME>PsuSetEloadOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>101</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>31</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>41</ID>
+        <NAME>SetRoutes_Disable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>32</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>42</ID>
+        <NAME>PSU PowerOn_48V20A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>33</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>43</ID>
+        <NAME>PsuSetEloadOn_HalfLoad</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>34</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>44</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>35</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>45</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>36</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>46</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>37</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>47</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>38</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>48</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>39</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>49</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>40</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>50</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>41</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>51</ID>
+        <NAME>SetRoutes_Disable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>42</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>52</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>43</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>53</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>44</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>54</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>45</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>55</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>46</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>56</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>47</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>57</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>48</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>58</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>49</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>59</ID>
+        <NAME>PSU PowerOn_48V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>50</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>60</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>51</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>61</ID>
+        <NAME>PsuSetEloadOn_5V1start</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>52</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>62</ID>
+        <NAME>5V1 OCP Test </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2150</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>53</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>63</ID>
+        <NAME>5V1 OCP Current </NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">25.0304</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>20</ACC_LOW>
+        <ACC_HIGH>30</ACC_HIGH>
+        <TEST_TIME>2150</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>54</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>64</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>55</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>65</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>56</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>66</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>57</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>67</ID>
+        <NAME>PsuSetEloadOn_5V1recover</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>58</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>68</ID>
+        <NAME>5V1 Recover Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.1026</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>34</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>59</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>69</ID>
+        <NAME>5V1 Alarm Clear Test</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>34</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>60</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>70</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>61</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>71</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>62</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>72</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>63</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>73</ID>
+        <NAME>PsuSetEloadOn_DRVstart</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>64</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>74</ID>
+        <NAME>DRV OCP Test </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1941</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>65</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>75</ID>
+        <NAME>DRV OCP Current </NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.01402</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>5.5</ACC_LOW>
+        <ACC_HIGH>7.5</ACC_HIGH>
+        <TEST_TIME>1941</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>66</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>76</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>67</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>77</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>68</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>78</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>69</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>79</ID>
+        <NAME>PsuSetEloadOn_DRVrecover</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>70</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>80</ID>
+        <NAME>DRV Recover Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">28.0395</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>26</ACC_LOW>
+        <ACC_HIGH>30</ACC_HIGH>
+        <TEST_TIME>25</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>71</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>81</ID>
+        <NAME>DRV Alarm Clear Test</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>25</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>72</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>82</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>73</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>83</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>74</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>84</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>75</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>85</ID>
+        <NAME>PsuSetEloadOn_PAstart</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>76</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>86</ID>
+        <NAME>PA OCP Test </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2699</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>77</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>87</ID>
+        <NAME>PA OCP Current </NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">19.0126687</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>16</ACC_LOW>
+        <ACC_HIGH>24</ACC_HIGH>
+        <TEST_TIME>2699</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>78</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>88</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>79</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>89</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>80</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>90</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>81</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>91</ID>
+        <NAME>PsuSetEloadOn_PArecover</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>82</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>92</ID>
+        <NAME>PA Recover Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.8391</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>48</ACC_LOW>
+        <ACC_HIGH>52</ACC_HIGH>
+        <TEST_TIME>22</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>83</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>93</ID>
+        <NAME>PA Alarm Clear Test</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>22</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>84</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>94</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>2</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>85</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>95</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>86</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>96</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>4</ACC_HIGH>
+        <TEST_TIME>2</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>87</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>97</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>88</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>98</ID>
+        <NAME>PSU PowerOn_48V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>89</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>99</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>90</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>100</ID>
+        <NAME>PsuPowerEfficiency_48VLight_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">79.96</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>174</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>91</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>101</ID>
+        <NAME>PsuPowerEfficiency_48VLight_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.8421</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>174</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>92</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>102</ID>
+        <NAME>PsuPowerEfficiency_48VLight_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">28.0457</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>174</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>93</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>103</ID>
+        <NAME>PsuPowerEfficiency_48VLight_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.11211</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>174</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>94</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>104</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>95</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>105</ID>
+        <NAME>PsuPowerEfficiency_48VHalf_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">95.4026</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>96</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>106</ID>
+        <NAME>PsuPowerEfficiency_48VHalf_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7947</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>97</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>107</ID>
+        <NAME>PsuPowerEfficiency_48VHalf_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9556</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>98</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>108</ID>
+        <NAME>PsuPowerEfficiency_48VHalf_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.1026</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>99</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>109</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>100</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>110</ID>
+        <NAME>PsuPowerEfficiency_48VFull_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">95.0238</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>209</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>101</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>111</ID>
+        <NAME>PsuPowerEfficiency_48VFull_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7684</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>209</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>102</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>112</ID>
+        <NAME>PsuPowerEfficiency_48VFull_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9508</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>209</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>103</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>113</ID>
+        <NAME>PsuPowerEfficiency_48VFull_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.08473</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>209</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>104</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>114</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>105</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>115</ID>
+        <NAME>PSU PowerOn_40V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>106</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>116</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>107</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>117</ID>
+        <NAME>PsuPowerEfficiency_40VLight_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">81.6718</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>203</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>108</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>118</ID>
+        <NAME>PsuPowerEfficiency_40VLight_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.8458</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>203</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>109</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>119</ID>
+        <NAME>PsuPowerEfficiency_40VLight_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">28.0483</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>203</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>110</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>120</ID>
+        <NAME>PsuPowerEfficiency_40VLight_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.11249</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>203</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>111</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>121</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>112</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>122</ID>
+        <NAME>PsuPowerEfficiency_40VHalf_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">95.4825</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>169</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>113</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>123</ID>
+        <NAME>PsuPowerEfficiency_40VHalf_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7911</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>169</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>114</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>124</ID>
+        <NAME>PsuPowerEfficiency_40VHalf_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9582</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>169</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>115</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>125</ID>
+        <NAME>PsuPowerEfficiency_40VHalf_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.1029</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>169</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>116</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>126</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>117</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>127</ID>
+        <NAME>PsuPowerEfficiency_40VFull_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">94.7681</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>188</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>118</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>128</ID>
+        <NAME>PsuPowerEfficiency_40VFull_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7693</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>188</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>119</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>129</ID>
+        <NAME>PsuPowerEfficiency_40VFull_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9522</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>188</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>120</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>130</ID>
+        <NAME>PsuPowerEfficiency_40VFull_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.08499</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>188</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>121</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>131</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>122</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>132</ID>
+        <NAME>PSU PowerOn_57V25A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>123</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>133</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>124</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>134</ID>
+        <NAME>PsuPowerEfficiency_57VLight_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">76.7939</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>125</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>135</ID>
+        <NAME>PsuPowerEfficiency_57VLight_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.8431</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>126</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>136</ID>
+        <NAME>PsuPowerEfficiency_57VLight_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">28.05</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>127</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>137</ID>
+        <NAME>PsuPowerEfficiency_57VLight_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.11215</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>192</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>128</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>138</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>404</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>129</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>139</ID>
+        <NAME>PsuPowerEfficiency_57VHalf_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">95.1296</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>173</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>130</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>140</ID>
+        <NAME>PsuPowerEfficiency_57VHalf_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7971</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>173</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>131</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>141</ID>
+        <NAME>PsuPowerEfficiency_57VHalf_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9587</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>173</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>132</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>142</ID>
+        <NAME>PsuPowerEfficiency_57VHalf_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.10257</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>173</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>133</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>143</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>134</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>144</ID>
+        <NAME>PsuPowerEfficiency_57VFull_Efficiency</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">95.0749</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>93</ACC_LOW>
+        <ACC_HIGH>100</ACC_HIGH>
+        <TEST_TIME>172</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>135</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>145</ID>
+        <NAME>PsuPowerEfficiency_57VFull_PA</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.7823</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>172</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>136</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>146</ID>
+        <NAME>PsuPowerEfficiency_57VFull_PA_DRV</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9524</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>172</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>137</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>147</ID>
+        <NAME>PsuPowerEfficiency_57VFull_5V1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.08468</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.2</ACC_HIGH>
+        <TEST_TIME>172</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>138</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>148</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>139</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>149</ID>
+        <NAME>PSU PowerOn_48V20A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>140</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>150</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>141</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>151</ID>
+        <NAME>psu voltage when uv alarm at 50% load</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">33.1999999999999</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>33</ACC_LOW>
+        <ACC_HIGH>40</ACC_HIGH>
+        <TEST_TIME>11292</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>142</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>152</ID>
+        <NAME>psu 50% load Shut down Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">32.9999999999999</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>31</ACC_LOW>
+        <ACC_HIGH>36</ACC_HIGH>
+        <TEST_TIME>11292</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>143</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>153</ID>
+        <NAME>PSU PowerOn_36V25A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>144</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>154</ID>
+        <NAME>Start up Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">37.564</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>36</ACC_LOW>
+        <ACC_HIGH>40</ACC_HIGH>
+        <TEST_TIME>1059</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>145</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>155</ID>
+        <NAME>PSU PowerOn_48V20A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>146</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>156</ID>
+        <NAME>SetRoutes_Enable</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>147</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>157</ID>
+        <NAME>PSU PowerOn_48V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>148</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>158</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>149</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>159</ID>
+        <NAME>Check PA Output Voltage 40V_Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">39.95</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>39</ACC_LOW>
+        <ACC_HIGH>41</ACC_HIGH>
+        <TEST_TIME>72</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>150</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>160</ID>
+        <NAME>Check PA Output Voltage 50V_Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.88</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>109</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>151</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>161</ID>
+        <NAME>Check PA Output Voltage 52V_Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">51.91</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>51</ACC_LOW>
+        <ACC_HIGH>53</ACC_HIGH>
+        <TEST_TIME>109</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>152</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>162</ID>
+        <NAME>Check PA Output Voltage 50V (1)_Eload_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.88</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>109</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>153</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>163</ID>
+        <NAME>PSU PowerOn_48V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>154</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>164</ID>
+        <NAME>5V1 Dynamic Voltage Average Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.0945</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4.9</ACC_LOW>
+        <ACC_HIGH>5.3</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>155</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>165</ID>
+        <NAME>5V1 Max Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0113</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>156</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>166</ID>
+        <NAME>5V1 Min Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0476</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>157</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>167</ID>
+        <NAME>PA Dynamic Voltage Average Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.8617</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>48</ACC_LOW>
+        <ACC_HIGH>52</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>158</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>168</ID>
+        <NAME>PA Max Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.933</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>159</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>169</ID>
+        <NAME>PA Min Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.1257</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>160</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>170</ID>
+        <NAME>DRV Dynamic Voltage Average Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.9832</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>26</ACC_LOW>
+        <ACC_HIGH>30</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>161</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>171</ID>
+        <NAME>DRV Max Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5502</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>162</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>172</ID>
+        <NAME>DRV Min Dynamic Valtage Value</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.7595</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>163</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>173</ID>
+        <NAME>PGOOD_PSU_INPUT</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>164</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>174</ID>
+        <NAME>PGOOD_DRV_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>165</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>175</ID>
+        <NAME>PGOOD_PA_PSU</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2247</TEST_TIME>
+        <COMMENT>null</COMMENT>
+        <QM_MEAS_ID>166</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>176</ID>
+        <NAME>PSU PowerOn_48V30A (1)</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>167</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>177</ID>
+        <NAME>INACalibration_AWHHJIoffset</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0128</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-0.5</ACC_LOW>
+        <ACC_HIGH>0.5</ACC_HIGH>
+        <TEST_TIME>26672</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>168</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>178</ID>
+        <NAME>INACalibration_AWHHJIfactor</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.9902</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1.1</ACC_LOW>
+        <ACC_HIGH>1.1</ACC_HIGH>
+        <TEST_TIME>26672</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>169</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>179</ID>
+        <NAME>INACalibration_AWHHJVfactor</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.0035</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>
+        </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-1.1</ACC_LOW>
+        <ACC_HIGH>1.1</ACC_HIGH>
+        <TEST_TIME>26672</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>170</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>180</ID>
+        <NAME>PSU PowerOn_40V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>171</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>181</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>172</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>182</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VLVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.1023</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>173</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>183</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VLCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.4097</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>174</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>184</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VLPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-1.0995</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>175</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>185</ID>
+        <NAME>PsuSetEloadOn_Quarter</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>176</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>186</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VQVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0623</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>177</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>187</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VQCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.11</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>178</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>188</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VQPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.16</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>179</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>189</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>180</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>190</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VMVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0955</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>181</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>191</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VMCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0637</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>182</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>192</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VMPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.3602</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>183</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>193</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>184</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>194</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VHVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.3783</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>185</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>195</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VHCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.011</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>186</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>196</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ40VHPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.2098</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>187</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>197</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>188</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>198</ID>
+        <NAME>PSU PowerOn_57V25A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>189</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>199</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VLVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.1504</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>190</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>200</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VLCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-1.2452</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>191</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>201</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VLPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-2.1945</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>192</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>202</ID>
+        <NAME>PsuSetEloadOn_Quarter</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>193</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>203</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VQVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.1345</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>194</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>204</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VQCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.3577</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>195</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>205</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VQPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0716</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>196</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>206</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>197</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>207</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VMVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0509</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1183</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>198</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>208</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VMCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0749</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1183</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>199</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>209</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VMPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.4617</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1183</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>200</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>210</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>201</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>211</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VHVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0772</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>202</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>212</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VHCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0302</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>203</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>213</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ57VHPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.4343</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>204</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>214</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>205</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>215</ID>
+        <NAME>PSU PowerOn_48V30A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>206</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>216</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VLVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.1299</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>207</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>217</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VLCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.7639</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>208</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>218</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VLPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-1.2235</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>209</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>219</ID>
+        <NAME>PsuSetEloadOn_Quarter</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>210</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>220</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VQVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0961</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>211</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>221</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VQCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.2075</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>212</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>222</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VQPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0561</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>213</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>223</ID>
+        <NAME>PsuSetEloadOn_Half</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>404</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>214</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>224</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VMVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0222</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>215</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>225</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VMCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.0724</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>216</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>226</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VMPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.4087</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>217</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>227</ID>
+        <NAME>PsuSetEloadOn_Full</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>404</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>218</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>228</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VHVoltageAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-0.2039</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>219</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>229</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VHCurrentAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.0085</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>220</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>230</ID>
+        <NAME>PsuInputMonitorTest_AWHHJ48VHPowerAccuracy</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.3803</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>%</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-5</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>1182</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>221</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>231</ID>
+        <NAME>PsuSetEloadOn_Light</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>403</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>222</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>232</ID>
+        <NAME>PSU PowerOn_48V1A</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>223</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>233</ID>
+        <NAME>PsuSetEloadOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>402</TEST_TIME>
+        <COMMENT>
+        </COMMENT>
+        <QM_MEAS_ID>224</QM_MEAS_ID>
+      </MEASUREMENT>
+    </RESULTS>
+    <TIMES>
+      <SETUP_TIME>1</SETUP_TIME>
+      <TEST_TIME>277661</TEST_TIME>
+      <UNLOAD_TIME>0</UNLOAD_TIME>
+    </TIMES>
+    <TEST_START>20242810152328</TEST_START>
+    <TEST_STOP>20242810152806</TEST_STOP>
+    <OVERALL_STATUS>PASS</OVERALL_STATUS>
+    <DIAGNOSTICS TYPE="NR">PRODUCTION</DIAGNOSTICS>
+    <LOG_DATA>
+    </LOG_DATA>
+  </RESULT_DATA>
+</QM_TEST_RESULT>

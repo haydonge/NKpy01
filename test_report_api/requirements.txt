@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+lxml
+pint
+python-dateutil
+requests
+black

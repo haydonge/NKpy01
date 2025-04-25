@@ -1,0 +1,2996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='SWIFT_MeasurementReport.xsl'?>
+<QM_TEST_RESULT MODE="INSERT">
+  <RESULT_DATA STORE_LIMITS="TRUE">
+    <HEADER>
+      <FILE_NAME>093983A.101_TRX</FILE_NAME>
+      <SWIFT_VERSION>9.16.4</SWIFT_VERSION>
+      <TEST_SPEC_ID>83E5DB87E3</TEST_SPEC_ID>
+      <OPERATOR>Prodtester</OPERATOR>
+      <COMMENT />
+      <TESTER>
+        <NAME>NET07000026</NAME>
+        <SERIAL_NUMBER>NET07000026</SERIAL_NUMBER>
+        <OT_NUMBER>T237592</OT_NUMBER>
+        <SW_VERSION>9.16.4</SW_VERSION>
+        <HW_VERSION>0.1</HW_VERSION>
+        <TEST_SEQUENCE>093983A.101_TRX</TEST_SEQUENCE>
+        <SEQUENCE_VERSION>NA</SEQUENCE_VERSION>
+        <SITE>SANKUN</SITE>
+        <OPERATION>TRX</OPERATION>
+      </TESTER>
+      <DUT>
+        <SERIAL_NUMBER>1M242010847</SERIAL_NUMBER>
+        <PRODUCT_CODE>093983A.101</PRODUCT_CODE>
+        <PRODUCT_REVISION>A</PRODUCT_REVISION>
+        <SHOP_ORDER>NA</SHOP_ORDER>
+        <SW_VERSION>NA</SW_VERSION>
+        <OPERATOR />
+        <POSITION>1</POSITION>
+      </DUT>
+      <CABINET>
+        <SERIAL_NUMBER />
+        <PRODUCT_CODE />
+        <TYPE />
+      </CABINET>
+      <MAC_ADDRESSES />
+      <FIXTURES />
+      <CUSTOM_ATTRIBUTES>
+        <FIELD VALUE="RID-250117152204">RID</FIELD>
+        <FIELD VALUE="9.16.4">VER</FIELD>
+      </CUSTOM_ATTRIBUTES>
+    </HEADER>
+    <RESULTS>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>10</ID>
+        <NAME>Dut check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>PassFail</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4859</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>1</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>11</ID>
+        <NAME>FixtureCheck</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2709</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>2</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>12</ID>
+        <NAME>Powerup.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.809</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>6</ACC_HIGH>
+        <TEST_TIME>8772</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>3</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>13</ID>
+        <NAME>PowerReset.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.739</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.1</ACC_LOW>
+        <ACC_HIGH>10</ACC_HIGH>
+        <TEST_TIME>11779</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>4</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>14</ID>
+        <NAME>EthernetBoot.loadUboot</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8625</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>5</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>15</ID>
+        <NAME>EthernetBoot.loadItb</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8625</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>6</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>16</ID>
+        <NAME>DutConnect0</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>108312</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>7</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>17</ID>
+        <NAME>CheckRFSWisOK</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1409</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>8</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>18</ID>
+        <NAME>DisConnectDut</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>0</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>9</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>19</ID>
+        <NAME>Power6700Module4Driver28v.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.04</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3407</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>10</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>20</ID>
+        <NAME>Power6700Module4Driver28v.voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">27.996</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>27</ACC_LOW>
+        <ACC_HIGH>29</ACC_HIGH>
+        <TEST_TIME>3407</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>11</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>21</ID>
+        <NAME>PowerResetFAN.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.066</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-0.01</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>10818</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>12</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>22</ID>
+        <NAME>PowerResetFlashboot5v1.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">5.902</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.1</ACC_LOW>
+        <ACC_HIGH>8</ACC_HIGH>
+        <TEST_TIME>98734</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>13</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>23</ID>
+        <NAME>COMportEnableLan</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>10328</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>14</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>24</ID>
+        <NAME>Power6700Module3Final50v.Current</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.003</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3406</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>15</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>25</ID>
+        <NAME>Power6700Module3Final50v.voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">49.954</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>49</ACC_LOW>
+        <ACC_HIGH>51</ACC_HIGH>
+        <TEST_TIME>3406</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>16</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>26</ID>
+        <NAME>DutConnect</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>17891</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>17</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>27</ID>
+        <NAME>MountFactoryDir</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>609</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>18</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>28</ID>
+        <NAME>MacAddressWrite</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>589</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>19</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>29</ID>
+        <NAME>AVSTest</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.86</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.8428</ACC_LOW>
+        <ACC_HIGH>0.8772</ACC_HIGH>
+        <TEST_TIME>1999</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>20</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>30</ID>
+        <NAME>Aisg24VTest.Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">24.224</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>22.8</ACC_LOW>
+        <ACC_HIGH>25.2</ACC_HIGH>
+        <TEST_TIME>3563</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>21</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>31</ID>
+        <NAME>EnablePaPsu</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2008</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>22</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>32</ID>
+        <NAME>PAalarmCheck_PA1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>506</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>23</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>33</ID>
+        <NAME>PAalarmCheck_PA2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>506</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>24</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>34</ID>
+        <NAME>PAalarmCheck_PA3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>506</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>25</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>35</ID>
+        <NAME>PAalarmCheck_PA4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>506</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>26</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>36</ID>
+        <NAME>stopRestFRmonCmds</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>41</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>27</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>37</ID>
+        <NAME>TemperatureSensorsCheck_MADE</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">36.625</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>28</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>38</ID>
+        <NAME>TemperatureSensorsCheck_BOARD</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">25.125</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>29</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>39</ID>
+        <NAME>TemperatureSensorsCheck_PA1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">25</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>30</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>40</ID>
+        <NAME>TemperatureSensorsCheck_PA2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">25.312</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>31</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>41</ID>
+        <NAME>TemperatureSensorsCheck_PA3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">25.438</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>32</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>42</ID>
+        <NAME>TemperatureSensorsCheck_PA4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">26.062</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>C</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>15</ACC_LOW>
+        <ACC_HIGH>60</ACC_HIGH>
+        <TEST_TIME>51</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>33</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>43</ID>
+        <NAME>DyingGaspAwhhj.INC8771_Start_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.518</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.425</ACC_LOW>
+        <ACC_HIGH>1.575</ACC_HIGH>
+        <TEST_TIME>1532</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>34</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>44</ID>
+        <NAME>DyingGaspAwhhj.INC8770_Start_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.844</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.71</ACC_LOW>
+        <ACC_HIGH>1.89</ACC_HIGH>
+        <TEST_TIME>1532</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>35</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>45</ID>
+        <NAME>DyingGaspAwhhj.INC8770_Dying_Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.063</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0.6</ACC_HIGH>
+        <TEST_TIME>1532</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>36</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>46</ID>
+        <NAME>FanTest.Hgih-speed</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6360</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>5800</ACC_LOW>
+        <ACC_HIGH>7000</ACC_HIGH>
+        <TEST_TIME>59297</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>37</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>47</ID>
+        <NAME>HwidCheck</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">84 64 3 0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>Hwid</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>84 64 3 0</ACC_LOW>
+        <ACC_HIGH>84 64 3 0</ACC_HIGH>
+        <TEST_TIME>17783</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>38</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>48</ID>
+        <NAME>MacAddressCheck_dut</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">C0:41:21:47:D2:F9</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>MAC</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>C0:41:21:47:D2:F9</ACC_LOW>
+        <ACC_HIGH>C0:41:21:47:D2:F9</ACC_HIGH>
+        <TEST_TIME>114</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>39</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>49</ID>
+        <NAME>MacAddressCheck_sfp1</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">C0:41:21:47:D2:FA</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>MAC</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>C0:41:21:47:D2:FA</ACC_LOW>
+        <ACC_HIGH>C0:41:21:47:D2:FA</ACC_HIGH>
+        <TEST_TIME>114</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>40</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>50</ID>
+        <NAME>MacAddressCheck_sfp1_0</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">C0:41:21:47:D2:FB</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>MAC</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>C0:41:21:47:D2:FB</ACC_LOW>
+        <ACC_HIGH>C0:41:21:47:D2:FB</ACC_HIGH>
+        <TEST_TIME>114</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>41</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>51</ID>
+        <NAME>MacAddressCheck_sfp2</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">C0:41:21:47:D2:FC</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>MAC</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>C0:41:21:47:D2:FC</ACC_LOW>
+        <ACC_HIGH>C0:41:21:47:D2:FC</ACC_HIGH>
+        <TEST_TIME>114</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>42</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>52</ID>
+        <NAME>MacAddressCheck_sfp2_0</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">C0:41:21:47:D2:FD</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>MAC</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>C0:41:21:47:D2:FD</ACC_LOW>
+        <ACC_HIGH>C0:41:21:47:D2:FD</ACC_HIGH>
+        <TEST_TIME>114</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>43</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>53</ID>
+        <NAME>LedTest_GREEN_Hue</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">125.39</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>80</ACC_LOW>
+        <ACC_HIGH>150</ACC_HIGH>
+        <TEST_TIME>522</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>44</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>54</ID>
+        <NAME>LedTest_GREEN_Intensity</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6661</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>500</ACC_LOW>
+        <ACC_HIGH>50000</ACC_HIGH>
+        <TEST_TIME>522</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>45</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>55</ID>
+        <NAME>LedTest_RED_Hue</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.17</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>2</ACC_HIGH>
+        <TEST_TIME>522</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>46</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>56</ID>
+        <NAME>LedTest_RED_Intensity</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1404</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>500</ACC_LOW>
+        <ACC_HIGH>50000</ACC_HIGH>
+        <TEST_TIME>522</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>47</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>57</ID>
+        <NAME>EacControlAwhhj_Generate_Alarm1</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">LOW</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>LOW</ACC_LOW>
+        <ACC_HIGH>LOW</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>48</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>58</ID>
+        <NAME>EacControlAwhhj_Generate_Alarm2</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">LOW</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>LOW</ACC_LOW>
+        <ACC_HIGH>LOW</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>49</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>59</ID>
+        <NAME>EacControlAwhhj_Generate_Alarm3</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">LOW</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>LOW</ACC_LOW>
+        <ACC_HIGH>LOW</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>50</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>60</ID>
+        <NAME>EacControlAwhhj_Generate_Alarm4</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">LOW</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>LOW</ACC_LOW>
+        <ACC_HIGH>LOW</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>51</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>61</ID>
+        <NAME>EacControlAwhhj_Stop_Alarm1</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">HIGH</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>HIGH</ACC_LOW>
+        <ACC_HIGH>HIGH</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>52</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>62</ID>
+        <NAME>EacControlAwhhj_Stop_Alarm2</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">HIGH</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>HIGH</ACC_LOW>
+        <ACC_HIGH>HIGH</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>53</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>63</ID>
+        <NAME>EacControlAwhhj_Stop_Alarm3</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">HIGH</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>HIGH</ACC_LOW>
+        <ACC_HIGH>HIGH</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>54</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>64</ID>
+        <NAME>EacControlAwhhj_Stop_Alarm4</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">HIGH</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>HIGH</ACC_LOW>
+        <ACC_HIGH>HIGH</ACC_HIGH>
+        <TEST_TIME>1913</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>55</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>65</ID>
+        <NAME>EAC5VTest.Voltage</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4.774</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>V</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4</ACC_LOW>
+        <ACC_HIGH>5.5</ACC_HIGH>
+        <TEST_TIME>554</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>56</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>66</ID>
+        <NAME>EnablePaPsu_Pipe1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2008</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>57</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>67</ID>
+        <NAME>ReturnLoss_Pipe1TX1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-16.617</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-14</ACC_HIGH>
+        <TEST_TIME>9824</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>58</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>68</ID>
+        <NAME>ReturnLoss_Pipe1RX1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-14.829</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-12</ACC_HIGH>
+        <TEST_TIME>9824</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>59</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>69</ID>
+        <NAME>EnablePaPsu_Pipe2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2410</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>60</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>70</ID>
+        <NAME>ReturnLoss_Pipe2TX2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-17.786</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-14</ACC_HIGH>
+        <TEST_TIME>10172</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>61</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>71</ID>
+        <NAME>ReturnLoss_Pipe2RX2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-12.93</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-12</ACC_HIGH>
+        <TEST_TIME>10172</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>62</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>72</ID>
+        <NAME>EnablePaPsu_Pipe3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2006</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>63</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>73</ID>
+        <NAME>ReturnLoss_Pipe3TX3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-17.109</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-14</ACC_HIGH>
+        <TEST_TIME>9823</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>64</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>74</ID>
+        <NAME>ReturnLoss_Pipe3RX3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-13.663</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-12</ACC_HIGH>
+        <TEST_TIME>9823</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>65</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>75</ID>
+        <NAME>EnablePaPsu_Pipe4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2006</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>66</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>76</ID>
+        <NAME>ReturnLoss_Pipe4TX4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-16.603</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-14</ACC_HIGH>
+        <TEST_TIME>9819</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>67</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>77</ID>
+        <NAME>ReturnLoss_Pipe4RX4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-16.177</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dB</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-55</ACC_LOW>
+        <ACC_HIGH>-12</ACC_HIGH>
+        <TEST_TIME>9819</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>68</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>78</ID>
+        <NAME>Tx1TestAwhhj_VVaNumber_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">10573</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>69</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>79</ID>
+        <NAME>Tx1TestAwhhj_PaDriverCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.6206032</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>70</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>80</ID>
+        <NAME>Tx1TestAwhhj_PaFinalCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.298128</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>71</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>81</ID>
+        <NAME>Tx1TestAwhhj_ChannelPower_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.84559631</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>72</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>82</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-30.73557212</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>73</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>83</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.77395373</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>74</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>84</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.76653136</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>75</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>85</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.89313305</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>76</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>86</ID>
+        <NAME>Tx1TestAwhhj_CCDF_0.01%_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.145</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>77</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>87</ID>
+        <NAME>Tx1TestAwhhj_VVaNumber_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">13162</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>78</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>88</ID>
+        <NAME>Tx1TestAwhhj_PaDriverCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5244134</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>79</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>89</ID>
+        <NAME>Tx1TestAwhhj_PaFinalCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.857673</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>80</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>90</ID>
+        <NAME>Tx1TestAwhhj_ChannelPower_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.88555908</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>81</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>91</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-32.48964721</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>82</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>92</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-31.75643649</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>83</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>93</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-49.75743469</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>84</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>94</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-48.81657857</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>85</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>95</ID>
+        <NAME>Tx1TestAwhhj_CCDF_0.01%_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.216666667</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>86</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>96</ID>
+        <NAME>Tx1TestAwhhj_VVaNumber_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">12141</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>87</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>97</ID>
+        <NAME>Tx1TestAwhhj_PaDriverCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5560456</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>88</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>98</ID>
+        <NAME>Tx1TestAwhhj_PaFinalCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.060542</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>89</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>99</ID>
+        <NAME>Tx1TestAwhhj_ChannelPower_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.92378616</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>90</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>100</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-30.45928579</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>91</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>101</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-30.8491605</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>92</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>102</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Lower1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.09335986</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>93</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>103</ID>
+        <NAME>Tx1TestAwhhj_ACLR_Upper1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.06255764</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>94</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>104</ID>
+        <NAME>Tx1TestAwhhj_CCDF_0.01%_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.901428571</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3477</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>95</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>105</ID>
+        <NAME>Tx2TestAwhhj_VVaNumber_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">12247</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>96</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>106</ID>
+        <NAME>Tx2TestAwhhj_PaDriverCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.6183913</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>97</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>107</ID>
+        <NAME>Tx2TestAwhhj_PaFinalCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.229938</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>98</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>108</ID>
+        <NAME>Tx2TestAwhhj_ChannelPower_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.86611938</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>99</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>109</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-27.45491634</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>100</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>110</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-26.66600072</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>101</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>111</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-43.13776881</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>102</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>112</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-42.27684804</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>103</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>113</ID>
+        <NAME>Tx2TestAwhhj_CCDF_0.01%_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.943333333</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>104</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>114</ID>
+        <NAME>Tx2TestAwhhj_VVaNumber_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">14118</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>105</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>115</ID>
+        <NAME>Tx2TestAwhhj_PaDriverCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5452844</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>106</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>116</ID>
+        <NAME>Tx2TestAwhhj_PaFinalCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.033103</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>107</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>117</ID>
+        <NAME>Tx2TestAwhhj_ChannelPower_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.95166779</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>108</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>118</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-28.32702942</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>109</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>119</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-27.96101604</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>110</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>120</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.67545958</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>111</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>121</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.56892195</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>112</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>122</ID>
+        <NAME>Tx2TestAwhhj_CCDF_0.01%_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.877272727</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>113</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>123</ID>
+        <NAME>Tx2TestAwhhj_VVaNumber_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">13512</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>114</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>124</ID>
+        <NAME>Tx2TestAwhhj_PaDriverCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.543996</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>115</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>125</ID>
+        <NAME>Tx2TestAwhhj_PaFinalCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.122845</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>116</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>126</ID>
+        <NAME>Tx2TestAwhhj_ChannelPower_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.9238739</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>117</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>127</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-28.41572035</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>118</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>128</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-28.11344183</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>119</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>129</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Lower1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.50113354</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>120</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>130</ID>
+        <NAME>Tx2TestAwhhj_ACLR_Upper1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.53543086</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>121</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>131</ID>
+        <NAME>Tx2TestAwhhj_CCDF_0.01%_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.745555556</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3363</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>122</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>132</ID>
+        <NAME>Tx3TestAwhhj_VVaNumber_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">13544</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>123</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>133</ID>
+        <NAME>Tx3TestAwhhj_PaDriverCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5735706</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>124</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>134</ID>
+        <NAME>Tx3TestAwhhj_PaFinalCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.944656</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>125</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>135</ID>
+        <NAME>Tx3TestAwhhj_ChannelPower_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.94314957</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>126</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>136</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.893387</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>127</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>137</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.18942613</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>128</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>138</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.23574257</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>129</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>139</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.44341709</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>130</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>140</ID>
+        <NAME>Tx3TestAwhhj_CCDF_0.01%_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.205</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>131</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>141</ID>
+        <NAME>Tx3TestAwhhj_VVaNumber_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">12934</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>132</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>142</ID>
+        <NAME>Tx3TestAwhhj_PaDriverCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.6119285</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>133</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>143</ID>
+        <NAME>Tx3TestAwhhj_PaFinalCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.576526</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>134</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>144</ID>
+        <NAME>Tx3TestAwhhj_ChannelPower_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.90111542</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>135</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>145</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-33.0344411</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>136</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>146</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-32.04682202</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>137</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>147</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.68823371</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>138</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>148</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.09839777</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>139</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>149</ID>
+        <NAME>Tx3TestAwhhj_CCDF_0.01%_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.033333333</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>140</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>150</ID>
+        <NAME>Tx3TestAwhhj_VVaNumber_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">14437</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>141</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>151</ID>
+        <NAME>Tx3TestAwhhj_PaDriverCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5281793</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>142</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>152</ID>
+        <NAME>Tx3TestAwhhj_PaFinalCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.977786</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>143</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>153</ID>
+        <NAME>Tx3TestAwhhj_ChannelPower_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.81783676</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>144</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>154</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-30.63789465</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>145</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>155</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-30.75950075</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>146</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>156</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Lower1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.89809898</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>147</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>157</ID>
+        <NAME>Tx3TestAwhhj_ACLR_Upper1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.78308211</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>148</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>158</ID>
+        <NAME>Tx3TestAwhhj_CCDF_0.01%_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.975555556</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3339</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>149</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>159</ID>
+        <NAME>Tx4TestAwhhj _VVaNumber_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">12585</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>150</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>160</ID>
+        <NAME>Tx4TestAwhhj _PaDriverCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.5594763</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>151</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>161</ID>
+        <NAME>Tx4TestAwhhj _PaFinalCurrent_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1.896348</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>152</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>162</ID>
+        <NAME>Tx4TestAwhhj _ChannelPower_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.9057045</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>153</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>163</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.4435654</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>154</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>164</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper0_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-28.79651709</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>155</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>165</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.39926107</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>156</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>166</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper1_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-45.91048461</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>157</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>167</ID>
+        <NAME>Tx4TestAwhhj _CCDF_0.01%_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">7.229375</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>158</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>168</ID>
+        <NAME>Tx4TestAwhhj _VVaNumber_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">11791</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>159</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>169</ID>
+        <NAME>Tx4TestAwhhj _PaDriverCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.6147595</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>160</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>170</ID>
+        <NAME>Tx4TestAwhhj _PaFinalCurrent_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.516471</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>161</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>171</ID>
+        <NAME>Tx4TestAwhhj _ChannelPower_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.90821838</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>162</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>172</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-31.75327319</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>163</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>173</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper0_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-31.05082969</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>164</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>174</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.64404126</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>165</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>175</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper1_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.41235304</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>166</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>176</ID>
+        <NAME>Tx4TestAwhhj _CCDF_0.01%_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.996</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>167</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>177</ID>
+        <NAME>Tx4TestAwhhj _VVaNumber_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">11673</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>8000</ACC_LOW>
+        <ACC_HIGH>16000</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>168</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>178</ID>
+        <NAME>Tx4TestAwhhj _PaDriverCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">0.589542</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0.5</ACC_LOW>
+        <ACC_HIGH>0.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>169</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>179</ID>
+        <NAME>Tx4TestAwhhj _PaFinalCurrent_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2.200961</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>A</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1.7</ACC_LOW>
+        <ACC_HIGH>2.8</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>170</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>180</ID>
+        <NAME>Tx4TestAwhhj _ChannelPower_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">46.83810043</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>46.8</ACC_LOW>
+        <ACC_HIGH>47.2</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>171</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>181</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.62796989</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>172</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>182</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper0_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-29.91555835</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-25</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>173</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>183</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Lower1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-44.4467724</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>174</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>184</ID>
+        <NAME>Tx4TestAwhhj _ACLR_Upper1_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-44.82676839</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBc</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-70</ACC_LOW>
+        <ACC_HIGH>-36</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>175</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>185</ID>
+        <NAME>Tx4TestAwhhj _CCDF_0.01%_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">6.804</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>6.1</ACC_LOW>
+        <ACC_HIGH>8.5</ACC_HIGH>
+        <TEST_TIME>3320</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>176</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>186</ID>
+        <NAME>Rx1_Gain_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.502578</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1428</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>177</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>187</ID>
+        <NAME>Rx1_Gain_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-48.115275</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1428</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>178</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>188</ID>
+        <NAME>Rx1_Gain_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-48.676434</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1428</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>179</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>189</ID>
+        <NAME>Rx2_Gain_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.96573</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1239</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>180</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>190</ID>
+        <NAME>Rx2_Gain_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.345452</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1239</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>181</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>191</ID>
+        <NAME>Rx2_Gain_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.737389</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1239</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>182</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>192</ID>
+        <NAME>Rx3_Gain_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-46.672836</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1255</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>183</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>193</ID>
+        <NAME>Rx3_Gain_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.412097</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1255</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>184</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>194</ID>
+        <NAME>Rx3_Gain_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.737389</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1255</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>185</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>195</ID>
+        <NAME>Rx4 _Gain_2506Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.279814</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1271</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>186</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>196</ID>
+        <NAME>Rx4 _Gain_2593Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-47.737389</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1271</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>187</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>197</ID>
+        <NAME>Rx4 _Gain_2680Mhz</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-48.317309</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-53</ACC_LOW>
+        <ACC_HIGH>-43</ACC_HIGH>
+        <TEST_TIME>1271</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>188</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>198</ID>
+        <NAME>RfPerformanceParent</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>416502</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>189</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>199</ID>
+        <NAME>SFPTest.Present_SFP1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>190</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>200</ID>
+        <NAME>SFPTest.Present_SFP2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>191</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>201</ID>
+        <NAME>SFPTest.Loop_SFP0</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>192</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>202</ID>
+        <NAME>SFPTest.Loop_SFP1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>193</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>203</ID>
+        <NAME>SFPTest.Absent_SFP1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>194</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>204</ID>
+        <NAME>SFPTest.Absent_SFP2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7656</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>195</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>205</ID>
+        <NAME>CatchLog</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>14267</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>196</QM_MEAS_ID>
+      </MEASUREMENT>
+    </RESULTS>
+    <TIMES>
+      <SETUP_TIME>1</SETUP_TIME>
+      <TEST_TIME>1064575</TEST_TIME>
+      <UNLOAD_TIME>0</UNLOAD_TIME>
+    </TIMES>
+    <TEST_START>20251701150419</TEST_START>
+    <TEST_STOP>20251701152204</TEST_STOP>
+    <OVERALL_STATUS>PASS</OVERALL_STATUS>
+    <DIAGNOSTICS TYPE="NR">ENGINEERING</DIAGNOSTICS>
+    <LOG_DATA></LOG_DATA>
+  </RESULT_DATA>
+</QM_TEST_RESULT>

@@ -1,0 +1,13 @@
+test_report_api/
+├── app.py           # Main Flask application
+├── config.py        # Configuration settings
+├── db.py            # Database interaction
+├── xml_parser.py    # XML parsing logic
+├── api/             # API endpoints
+│   ├── __init__.py
+│   ├── reports.py
+│   ├── measurements.py
+│   ├── statistics.py
+│   └── upload.py
+├── utils.py         # Utility functions (e.g., logging)
+└── requirements.txt # Dependencies
